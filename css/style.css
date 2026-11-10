@@ -1,0 +1,171 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #080812;
+    color: #eeeeff;
+    line-height: 1.8;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #100b25, #101b3d, #080812);
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 2px solid #702cff;
+    box-shadow: 0 5px 25px rgba(112, 44, 255, 0.25);
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px #702cff;
+}
+
+/* NAVIGATION */
+nav a {
+    display: inline-block;
+    color: #c7c9ff;
+    text-decoration: none;
+    margin: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff1744;
+    text-shadow: 0 0 12px #ff1744;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* SECTIONS */
+section {
+    background: linear-gradient(145deg, #131326, #101b35);
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #30205e;
+    box-shadow: 0 5px 20px rgba(76, 29, 149, 0.15);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    border-color: #702cff;
+    box-shadow: 0 8px 25px rgba(112, 44, 255, 0.25);
+}
+
+/* SECTION TITLES */
+section h2 {
+    color:rgb(146, 120, 146); ;
+    font-size: 25px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #e60036;
+    padding-bottom: 10px;
+}
+
+/* PROFILE IMAGE */
+#about img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #713cff;
+    box-shadow: 0 0 20px #702cff;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+p {
+    color: #c5c5dd;
+    margin-bottom: 12px;
+}
+
+/* LISTS */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    color: #d7d7f5;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: #ff1744;
+}
+
+/* LINKS */
+section a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+section a:hover {
+    color: #ff1744;
+    text-shadow: 0 0 10px #ff1744;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #100b25, #101b3d);
+    color: #bbaaff;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #702cff;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+/* HORIZONTAL LINE */
+hr {
+    border: none;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 21px;
+    }
+}
